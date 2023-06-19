@@ -1,0 +1,25 @@
+cloud:
+  aws:
+    credentials:
+      access-key: AKIAU4OT4X3XM47YCL6O 
+      secret-key: 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
+    region:
+      static: us-east-1
+    stack:
+      auto: false
+
+application:
+  bucket:
+    name: buckets3ag
+
+
+spring:
+  servlet:
+    multipart:
+      enabled: true
+      file-size-threshold: 1GB  
+      max-file-size: 10GB
+      max-request-size: 20GB 
+
+server:
+  port: 9090
